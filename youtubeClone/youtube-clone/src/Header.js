@@ -11,18 +11,22 @@ function Header() {
   return (
     <div className="header">
      
-      <MenuIcon />
-      <img className="header__logo" src="https://cdn.havecamerawilltravel.com/photographer/files/2020/01/youtube-logo-new.jpg" alt="" />
-      
+      <div className="header__left">
+        <MenuIcon />
+        <img className="header__logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/1024px-YouTube_Logo_2017.svg.png" alt="" />
+      </div>
 
-      <input type="text"/>
-      <SearchIcon />
+      <div className="header__input">
+        <input type="text"/>
+        <SearchIcon />
+      </div>
 
-
-      <VideoCallSharpIcon/>
-      <AppsSharpIcon/>
-      <NotificationsIcon />
-      <AccountCircleIcon />
+      <div className="header__icons">
+        <VideoCallSharpIcon/>
+        <AppsSharpIcon/>
+        <NotificationsIcon />
+        <AccountCircleIcon />
+      </div>
     </div>
   );
 }
