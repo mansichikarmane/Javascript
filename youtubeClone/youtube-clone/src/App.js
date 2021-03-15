@@ -2,19 +2,21 @@ import React from "react";
 import './App.css';
 import Header from './Header';
 import Sidebar from './Sidebar';
-
+import RecommendedVideos from './RecommendedVideos';
 function App() {
   return (
     <div className="app">
-      {/* <h1>Youtube Clone</h1> */}
 
       <Header />
       
       <div>
         <Sidebar/>
       </div>
-      {/* {sidebar} */}
-      {/* {recommended videos} */}
+      
+      <div>
+        <RecommendedVideos/>
+      </div>
+      
     </div>
   );
 }
