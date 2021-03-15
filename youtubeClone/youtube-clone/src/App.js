@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
 import Header from './Header';
+import Sidebar from './Sidebar';
 
 function App() {
   return (
@@ -8,7 +9,10 @@ function App() {
       {/* <h1>Youtube Clone</h1> */}
 
       <Header />
-      {/* {header} */}
+      
+      <div>
+        <Sidebar/>
+      </div>
       {/* {sidebar} */}
       {/* {recommended videos} */}
     </div>

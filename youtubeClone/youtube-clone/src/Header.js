@@ -17,14 +17,14 @@ function Header() {
       </div>
 
       <div className="header__input">
-        <input type="text"/>
-        <SearchIcon />
+        <input placeholder="Search" type="text"/>
+        <SearchIcon className="header__inputButton"/>
       </div>
 
       <div className="header__icons">
-        <VideoCallSharpIcon/>
-        <AppsSharpIcon/>
-        <NotificationsIcon />
+        <VideoCallSharpIcon className="header__icon"/>
+        <AppsSharpIcon className="header__icon"/>
+        <NotificationsIcon className="header__icon" />
         <AccountCircleIcon />
       </div>
     </div>
