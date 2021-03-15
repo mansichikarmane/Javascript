@@ -9,14 +9,11 @@ function App() {
 
       <Header />
       
-      <div>
+      <div className="app__page">
         <Sidebar/>
-      </div>
-      
-      <div>
         <RecommendedVideos/>
       </div>
-      
+
     </div>
   );
 }
