@@ -11,7 +11,7 @@ function App() {
       
       <div className="app__page">
         <Sidebar/>
-        <RecommendedVideos/>
+        <RecommendedVideos class="rec__videos"/>
       </div>
 
     </div>

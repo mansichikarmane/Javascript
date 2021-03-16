@@ -1,17 +1,17 @@
 import React from 'react'
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
-
+import './VideoCard.css'
 function VideoCard({image, title, channel, views, timestamp, channelImage }) {
   return (
     <div className="videoCard">
-      <img src={image} alt="" className="videoCard__thumbnail"/>
-      <div className="video__info">
+      <img src={image} alt="" className="videoCard__thumbnail" />
+      <div className="videoCard__info">
         <AccountCircleIcon 
           className="videoCard__avatar" 
           alt={channel} 
           src={channelImage}
         />
-        <div className="video__text">
+        <div className="videoCard__text">
           <h4>{title}</h4>
           <p>{channel}</p>
           <p>
