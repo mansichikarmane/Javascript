@@ -13,13 +13,29 @@ import {
 function App() {
   return (
     <div className="app">
+      <Router>
+      <Header/>
+        <Switch>
+          <Route path="/search">
+            
+            <h1>Search Page🔍</h1>
+          </Route>
 
-      <Header />
-      
+          <Route path="/">
+            <div className="app__page">
+              <Sidebar/>
+              <RecommendedVideos class="rec__videos"/>
+            </div>
+          </Route>
+        </Switch>
+
+      </Router>
+
+      {/* <Header />
       <div className="app__page">
         <Sidebar/>
         <RecommendedVideos class="rec__videos"/>
-      </div>
+      </div> */}
 
     </div>
   );
